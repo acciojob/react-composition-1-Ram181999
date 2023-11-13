@@ -4,7 +4,7 @@ import React from 'react'
 
 const Tabs = ({tabsprop}) => {
     // console.log(tabsprop);
-    const [content, Setcontent] = React.useState("");
+    const [content, Setcontent] = React.useState(tabsprop[0].content);
   return (
     <div>
         <ul>
